@@ -73,7 +73,6 @@ body {
 				
 				display: block;
 			}
-
 		}
 		
 		&:hover {
@@ -105,13 +104,11 @@ body {
 			$padding : 16;
 			padding: .75em percentage($padding / $masterWidth);
 		}
-		
 	}
 	
 	&.selected {
 		display: block;
 	}
-
 		
 	&#service {
 		background-color: #c7e3ff;
@@ -130,19 +127,14 @@ body {
 		padding: 1em 2%;
 		float: left;
 
-
-
-
-
 		@media screen {
 		
 			@media ($maxWidth: $mobileBreakPoint + 'px') {
 				width: 85%;
 				float: none;
 				clear: both;
-					margin-left: auto;
-					margin-right: auto;
-			
+				margin-left: auto;
+				margin-right: auto;
 			}
 		}
 		
@@ -186,7 +178,7 @@ body {
 	}
 	
 	
-		img {
+	img {
 		float: right;
 		clear: none;
 		width: 38%;
@@ -211,7 +203,6 @@ body {
 			}
 		}
 	}
-
 }
 
 #footer {
@@ -254,6 +245,5 @@ body {
 				}
 			}
 		}
-
 	}
 }
